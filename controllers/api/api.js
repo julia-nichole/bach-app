@@ -6,5 +6,8 @@ module.exports = {
 }
 
 function yelpFilter(req,res){
-
-}
+        client.search({
+         categories: 'brunch',
+          location: 'Austin Texas',
+          limit: 5
+        })}

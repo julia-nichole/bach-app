@@ -4,7 +4,11 @@ var apiCtrl = require('../controllers/api/api');
 var passport = require('passport');
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.redirect('/users');
+  res.render('index',{
+    title : 'Bach Behavior ',
+    user: req.user,
+    name:req.query.name
+  });
 });
 // oauth login route 
 router.get('/auth/google', passport.authenticate(
