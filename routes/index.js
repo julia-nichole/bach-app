@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
     user: req.user,
     name:req.query.name
   });
+ 
 });
 // oauth login route 
 router.get('/auth/google', passport.authenticate(
@@ -20,8 +21,8 @@ router.get('/auth/google', passport.authenticate(
 router.get('/oauth2callback',passport.authenticate(
   'google',
   {
-    successRedirect : '/users',
-    failureRedirect : '/users'
+    successRedirect : '/home',
+    failureRedirect : '/'
   }
 ));
 

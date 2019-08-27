@@ -2,9 +2,11 @@
 <html>
   <head>
     <title class="HPT"><%= title %></title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body class="bg">
+    <nav>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %><% if (user) {%>, <%= user.name %>! <%} %></p>
     <ul class="right">
@@ -14,5 +16,6 @@
       <% } else { %>
         <a href="/auth/google">Login with Google</a>
       <% } %>
+    </nav>
     </body>
     </html>

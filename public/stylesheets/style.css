@@ -1,6 +1,7 @@
 body {
+  font-family: 'Oxygen', sans-serif;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
 }
 
 a {
@@ -12,4 +13,22 @@ background-image: url('https://i.imgur.com/dQDqDgr.jpg');
 height: 100vmin; 
   background-position: center;
   background-size: cover;
+}
+nav{
+  display: flex;
+ justify-content:space-around;
+ 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(255,255,130,0.5); 
+  
+}
+.right{
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }

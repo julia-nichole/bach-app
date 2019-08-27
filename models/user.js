@@ -10,7 +10,8 @@ const userSchema = new Schema ({
 
 const saveSchema =new Schema({
     categories:String,
-    location:String
+    location:String,
+    // favorites:
 })
 
 module.exports = mongoose.model('User',userSchema,);
