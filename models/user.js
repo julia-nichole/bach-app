@@ -8,4 +8,9 @@ const userSchema = new Schema ({
     timestamps: true
 });
 
-module.exports = mongoose.model('User',userSchema);
+const saveSchema =new Schema({
+    categories:String,
+    location:String
+})
+
+module.exports = mongoose.model('User',userSchema,);
