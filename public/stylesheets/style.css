@@ -5,7 +5,8 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  font-family: 'Oxygen', sans-serif;
+  color:black;
 }
 
 .bg{
@@ -31,4 +32,17 @@ nav{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+.categories{
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  font-size: 20px;
+}
+.second{
+  background-image: url('https://i.imgur.com/Sc9dsqx.jpg');
+  height: 75vmin; 
+  background-position: center;
+  background-size: cover;
+  background-color:rgb(255,255,130,0.8)
 }
