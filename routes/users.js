@@ -20,7 +20,7 @@ var boozeCtrl = require('../controllers/booze');
  
  
 
- router.get('/booze',boozeCtrl.show) 
+ router.get('/booze',boozeCtrl.index) 
     
 
   

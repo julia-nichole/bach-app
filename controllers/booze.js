@@ -1,12 +1,12 @@
 
 
 
-function show(req, res) {
+function index(req, res) {
     res.render('/booze');
   };
     
 
 
 module.exports = {
- show
+ index
 }

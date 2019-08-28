@@ -1,6 +1,6 @@
 
 function index(req, res) {
-    res.render('/index', { title: 'Bach Behavior' });
+    res.render('/index/brunch', { title: 'Bach Behavior' });
   };
     
 

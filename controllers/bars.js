@@ -4,7 +4,7 @@
 
 
 function index(req, res) {
-  res.render('/index', { title: 'Bach Behavior' });
+  res.render('/bars', { title: 'Bach Behavior' });
 };
   
 
