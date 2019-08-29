@@ -8,10 +8,6 @@ const userSchema = new Schema ({
     timestamps: true
 });
 
-const saveSchema =new Schema({
-    categories:String,
-    location:String,
-    // favorites:
-})
+
 
 module.exports = mongoose.model('User',userSchema,);

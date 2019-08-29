@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var apiCtrl = require('../controllers/api/api');
 var passport = require('passport');
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -32,5 +31,5 @@ router.get('/logout', function(req, res){
 });
 
 
-// router.post('./search',apiCtrl.yelpFilter);
+
 module.exports = router;
