@@ -23,7 +23,10 @@ nav{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:rgb(255,255,130,0.5); 
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  font-size: 20px;; 
   
 }
 .right{
@@ -64,4 +67,25 @@ nav{
   height:100vmin; 
   background-position: center;
   background-size: cover;
+}
+.categories1{
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  font-size: 20px;
+  background-color:rgba(219, 144, 14, 0.7);
+}
+.categories2{
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  font-size: 20px;
+  background-color:rgba(199, 62, 245, 0.3)
+}
+.categories3{
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  font-size: 20px;
+  background-color:rgba(127, 4, 168, 0.5)
 }
