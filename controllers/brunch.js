@@ -1,7 +1,9 @@
 
 function index(req, res) {
-    res.render('/index/brunch', { title: 'Bach Behavior' });
-  };
+  res.render('brunch', {
+    user: req.user,
+  });
+};
     
 
 module.exports = {

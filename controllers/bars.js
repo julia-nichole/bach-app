@@ -4,9 +4,10 @@
 
 
 function index(req, res) {
-  res.render('/bars', { title: 'Bach Behavior' });
+  res.render('bars', {
+    user: req.user,
+  });
 };
-  
 
 module.exports = {
    index

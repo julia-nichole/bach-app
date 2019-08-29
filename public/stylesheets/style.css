@@ -46,3 +46,22 @@ nav{
   background-size: cover;
   background-color:rgb(255,255,130,0.8)
 }
+.brunch{
+  background-image: url('https://i.imgur.com/PBVpAkE.jpg');
+  height: 90vmin; 
+  background-position: center;
+  background-size: cover;
+
+}
+.booze{
+  background-image: url('https://i.imgur.com/NU6tXXm.jpg');
+  height: 75vmin; 
+  background-position: center;
+  background-size: cover;
+}
+.bars{
+  background-image: url('https://i.imgur.com/iz32AZu.jpg');
+  height:100vmin; 
+  background-position: center;
+  background-size: cover;
+}

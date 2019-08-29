@@ -28,18 +28,13 @@ var boozeCtrl = require('../controllers/booze');
 
 
 
-
-
-
-
-// router.get('/', userCtrl.index);
-// router.get('/new', isLoggedin,userCtrl.new);
-
-
-// function isLoggedin(req,res,next){
-//   if (req.isAuthenticated()) return next();
+//  function isLoggedIn(req, res, next) {
+//   if ( req.isAuthenticated() ) return next();
 //   res.redirect('/auth/google');
-  
 // }
+
+
+
+
 
 module.exports = router;

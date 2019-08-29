@@ -2,7 +2,9 @@
 
 
 function index(req, res) {
-    res.render('/booze');
+    res.render('booze', {
+      user: req.user,
+    });
   };
     
 
